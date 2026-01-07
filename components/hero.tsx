@@ -63,11 +63,11 @@ export default function Hero() {
               <div className="grid grid-cols-3 gap-4 animate-fade-in-up delay-400">
                 <div className="card-futuristic p-3 rounded-lg backdrop-blur">
                   <div className="text-xl font-bold text-primary">500K+</div>
-                  <div className="text-foreground/60 text-[10px] uppercase tracking-wider">Devices</div>
+                  <div className="text-foreground/60 text-[10px] uppercase tracking-wider">SIM Cards IOT</div>
                 </div>
                 <div className="card-futuristic p-3 rounded-lg backdrop-blur">
                   <div className="text-xl font-bold text-primary">150K+</div>
-                  <div className="text-foreground/60 text-[10px] uppercase tracking-wider">Repaired</div>
+                  <div className="text-foreground/60 text-[10px] uppercase tracking-wider">Device Repaired</div>
                 </div>
                 <div className="card-futuristic p-3 rounded-lg backdrop-blur">
                   <div className="text-xl font-bold text-primary">800K+</div>
@@ -89,7 +89,7 @@ export default function Hero() {
                   playsInline
                   className="w-full h-full object-cover scale-110"
                 >
-                  <source src="https://gghpnxauu0tgy0i9.public.blob.vercel-storage.com/WhatsApp%20Video%202026-01-07%20at%2011.19.41%20AM.mp4" type="video/mp4" />
+                  <source src="https://gghpnxauu0tgy0i9.public.blob.vercel-storage.com/WhatsApp%20Video%202026-01-07%20at%2011.22.53%20AM.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 

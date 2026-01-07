@@ -10,8 +10,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company */}
           <div>
-            <h3 className="font-bold text-lg mb-4">termimax</h3>
-            <p className="text-foreground/60 text-sm">Enterprise POS enablement across the UAE</p>
+            <h3 className="font-bold text-lg mb-4">TermiMax</h3>
+            <p className="text-foreground/60 text-sm">Enterprise POS enablement across the UAE. We support both regulated financial institutions and high-growth fintechs, adapting our delivery model, governance, and SLAs to meet differing regulatory, operational, and scalability requirements.</p>
           </div>
 
           {/* Services */}
