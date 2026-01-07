@@ -3,6 +3,22 @@
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import Link from "next/link";
+import { useState, useEffect } from 'react';
+useEffect(() => {
+  const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
+
+    // Visible if scrolling up OR at the very top
+    const isVisible = prevScrollPos > currentScrollPos || currentScrollPos < 10;
+
+    setPrevScrollPos(currentScrollPos);
+    setVisible(isVisible);
+  };
+
+  window.addEventListener('scroll', handleScroll);
+  return () => window.removeEventListener('scroll', handleScroll);
+}, [prevScrollPos]);
+
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
