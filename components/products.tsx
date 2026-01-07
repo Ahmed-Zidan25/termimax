@@ -2,6 +2,7 @@
 
 import { RadioTower, Tablet, HandMetal } from "lucide-react" // Added WifiSiren as a placeholder for wifiSync
 import { ScrollFadeIn } from "./scroll-animation"
+import Link from "next/link";
 
 const productsData = [
   {

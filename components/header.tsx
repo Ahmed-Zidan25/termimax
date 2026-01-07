@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
+import Link from "next/link";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -42,7 +43,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <button className="px-6 py-2 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:shadow-lg hover:shadow-primary/50">
-              Request a Quote
+            <Link href="/quote">Request a Quote</Link>
             </button>
           </div>
 

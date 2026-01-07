@@ -2,6 +2,7 @@
 
 import { ArrowRight } from "lucide-react"
 import { ScrollFadeIn } from "./scroll-animation"
+import Link from "next/link";
 
 export default function Hero() {
   return (

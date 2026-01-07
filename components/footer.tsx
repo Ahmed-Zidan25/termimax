@@ -1,6 +1,6 @@
 "use client"
 
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
+
 
 export default function Footer() {
   return (

@@ -2,6 +2,7 @@
 
 import { Wifi, Package, Wrench, Lock, Truck, TrendingUp } from "lucide-react"
 import { ScrollFadeIn } from "./scroll-animation"
+import Link from "next/link";
 
 const services = [
   {
