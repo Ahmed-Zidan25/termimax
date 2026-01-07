@@ -3,7 +3,8 @@
 import { Wifi, Package } from "lucide-react"
 import { ScrollFadeIn } from "./scroll-animation"
 
-const Products = [
+// 1. Renamed to lowercase 'productsData' to avoid conflict with the function name
+const productsData = [
   {
     icon: Wifi,
     title: "IoT Connectivity for POS",
@@ -20,7 +21,6 @@ const Products = [
     features: ["POS Terminals", "Genuine Spare Parts", "ECR Devices"],
     image: "/pos-payment-terminals-hardware-devices.jpg",
   }
-  
 ]
 
 export default function Products() {
@@ -33,30 +33,30 @@ export default function Products() {
             Our <span className="text-primary">Product Categories</span>
           </h2>
           <p className="text-foreground/60 text-lg max-w-2xl mx-auto animate-fade-in-up delay-100">
-          Discover our comprehensive range of products designed to meet all your point-of-sale needs
+            Discover our comprehensive range of products designed to meet all your point-of-sale needs
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {products.map((products, index) => {
-            const Icon = products.icon
+          {/* 2. Fixed 'product.map' to 'productsData.map' */}
+          {productsData.map((product, index) => {
+            const Icon = product.icon
             return (
               <ScrollFadeIn key={index} delay={index * 100}>
                 <div
                   className="group h-full card-futuristic p-6 rounded-xl flex flex-col"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  {/* Image with hover expansion effect */}
                   <div className="card-image mb-6 -mx-6 -mt-6 rounded-t-xl overflow-hidden">
                     <img
-                      src={products.image || "/placeholder.svg"}
-                      alt={products.title}
+                      {/* 3. Changed 'products.image' to 'product.image' (singular) */}
+                      src={product.image || "/placeholder.svg"}
+                      alt={product.title}
                       className="w-full h-full object-cover"
                     />
                     <div className="card-image-overlay" />
                   </div>
 
-                  {/* Icon with purple glow effect on hover */}
                   <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-accent/20 transition-all duration-300">
                     <Icon
                       size={24}
@@ -65,13 +65,15 @@ export default function Products() {
                   </div>
 
                   <h3 className="text-xl font-bold mb-2 group-hover:text-accent transition-colors duration-300 text-foreground">
-                    {products.title}
+                    {product.title}
                   </h3>
 
-                  <p className="text-foreground/60 text-sm mb-4 flex-grow">{products.description}</p>
+                  <p className="text-foreground/60 text-sm mb-4 flex-grow">
+                    {product.description}
+                  </p>
 
                   <div className="flex flex-wrap gap-2 mt-auto">
-                    {products.features.map((feature, i) => (
+                    {product.features.map((feature, i) => (
                       <span
                         key={i}
                         className="text-xs px-2 py-1 bg-primary/10 text-primary rounded-full group-hover:bg-accent/20 group-hover:text-accent transition-all duration-300"
