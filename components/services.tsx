@@ -1,6 +1,6 @@
 "use client"
 
-import { Wifi, Package, Wrench, Lock, Truck, TrendingUp, wifiSync} from "lucide-react"
+import { Wifi, Package, Wrench, Lock, Truck, TrendingUp } from "lucide-react"
 import { ScrollFadeIn } from "./scroll-animation"
 
 const services = [
@@ -52,7 +52,7 @@ const services = [
     image: "/upgrade-program-technology-refresh.jpg",
   },
   {
-    icon: wifiSync,
+    icon: Wifi,
     title: "AirLink",
     description: "Zero-touch remote provisioning, Global multi-operator, auto-switching, One-click remote config, Real-time usage monitoring, smart alerts",
     features: ["Solve Poor Coverage", "Speed First", "Touchless eSIM activation"],
