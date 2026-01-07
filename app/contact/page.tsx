@@ -80,7 +80,7 @@ const countryCodes = [
   { name: "Tunisia", code: "+216" },
   { name: "Turkey", code: "+90" },
   { name: "Ukraine", code: "+380" },
-  { name: "United Arab Emirates", code: "+971" },
+  { name: "UAE", code: "+971" },
   { name: "United Kingdom", code: "+44" },
   { name: "United States", code: "+1" },
   { name: "Vietnam", code: "+84" },
@@ -178,8 +178,8 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="mb-1 font-semibold text-foreground">Address</h3>
-                        <p className="text-sm text-muted-foreground">Iris Bay - 901, Office No. 901-34, Business Bay,</p>
-                        <p className="text-sm text-muted-foreground">Dubai,</p>
+                        <p className="text-sm text-muted-foreground">Iris Bay - 901, Office No. 901-34,</p>
+                        <p className="text-sm text-muted-foreground">Business Bay, Dubai,</p>
                         <p className="text-sm text-muted-foreground">United Arab Emirates.</p>
                       </div>
                     </div>

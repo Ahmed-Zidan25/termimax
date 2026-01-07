@@ -31,7 +31,7 @@ export default function Header() {
             <a href="#clients" className="text-foreground/70 hover:text-primary transition-colors text-sm font-medium">
               Clients
             </a>
-            <a href="/products" className="text-foreground/70 hover:text-primary transition-colors text-sm font-medium">
+            <a href="#products" className="text-foreground/70 hover:text-primary transition-colors text-sm font-medium">
               Products
             </a>
             <a href="/contact" className="text-foreground/70 hover:text-primary transition-colors text-sm font-medium">

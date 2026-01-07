@@ -2,6 +2,7 @@
 import Header from "@/components/header"
 import Hero from "@/components/hero"
 import Services from "@/components/services"
+import Products from "@/components/products"
 import Experience from "@/components/experience"
 import Features from "@/components/features"
 import Clients from "@/components/clients"
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Services />
+      <Products />
       <Experience />
       <Features />
       <Clients />
