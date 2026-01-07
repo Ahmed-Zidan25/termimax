@@ -91,7 +91,7 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    countryCode: "+20",
+    countryCode: "+971",
     phone: "",
     subject: "",
     message: "",
@@ -102,7 +102,7 @@ export default function ContactPage() {
     e.preventDefault()
     console.log("[v0] Contact form submitted:", formData)
     alert("Thank you for contacting us! We'll get back to you soon.")
-    setFormData({ name: "", email: "", countryCode: "+20", phone: "", subject: "", message: "" })
+    setFormData({ name: "", email: "", countryCode: "+971", phone: "", subject: "", message: "" })
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -157,8 +157,8 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="mb-1 font-semibold text-foreground">Email</h3>
-                        <p className="text-sm text-muted-foreground">info@mk360.co</p>
-                        <p className="text-sm text-muted-foreground">support@mk360.co</p>
+                        <p className="text-sm text-muted-foreground">info@termimax.net</p>
+                        <p className="text-sm text-muted-foreground">support@termimax.net</p>
                       </div>
                     </div>
 
@@ -168,7 +168,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="mb-1 font-semibold text-foreground">Phone</h3>
-                        <p className="text-sm text-muted-foreground">+2 010665557575</p>
+                        <p className="text-sm text-muted-foreground">+971 ******</p>
                       </div>
                     </div>
 
@@ -178,9 +178,9 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="mb-1 font-semibold text-foreground">Address</h3>
-                        <p className="text-sm text-muted-foreground">6 Al Mokhtar Street, New Maadi</p>
-                        <p className="text-sm text-muted-foreground">Cairo</p>
-                        <p className="text-sm text-muted-foreground">Egypt</p>
+                        <p className="text-sm text-muted-foreground">Iris Bay - 901, Office No. 901-34, Business Bay,</p>
+                        <p className="text-sm text-muted-foreground">Dubai,</p>
+                        <p className="text-sm text-muted-foreground">United Arab Emirates.</p>
                       </div>
                     </div>
 
@@ -344,12 +344,12 @@ export default function ContactPage() {
                   <MapPin className="h-5 w-5 text-red-600" />
                   <span>Find Us</span>
                 </CardTitle>
-                <CardDescription>Our head office location in Cairo, Egypt</CardDescription>
+                <CardDescription>Our head office location in Dubai, United Arab Emirates</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="aspect-[21/9] rounded-xl overflow-hidden shadow-xl">
                   <iframe
-                    src="https://maps.google.com/maps?q=29.9750180,31.2753333&z=15&output=embed"
+                    src="https://maps.google.com/maps?q=Iris%20Bay%20-%20901%2C%20Office%20No.%20901-34%2C%20Business%20Bay%2C%20Dubai%2C%20United%20Arab%20Emirates&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -362,7 +362,7 @@ export default function ContactPage() {
 
                 <p className="text-sm text-muted-foreground mt-4 flex items-center justify-center sm:justify-start">
                   <MapPin className="h-4 w-4 text-secondary mr-2" />
-                  6 Al Mokhtar Street, New Maadi, Cairo, Egypt
+                  Iris Bay - 901, Office No. 901-34, Business Bay, Dubai, United Arab Emirates.
                 </p>
               </CardContent>
             </Card>
