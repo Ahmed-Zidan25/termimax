@@ -1,7 +1,6 @@
 "use client"
 
-// Ensure you have imported ScrollFadeIn if it's a separate component
-// import ScrollFadeIn from "./ScrollFadeIn"; 
+import { ScrollFadeIn } from "./scroll-animation"
 
 export default function Experience() {
   const metrics = [
