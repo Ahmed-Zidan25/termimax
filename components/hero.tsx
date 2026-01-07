@@ -89,7 +89,7 @@ export default function Hero() {
                   playsInline
                   className="w-full h-full object-cover scale-110"
                 >
-                  <source src="/your-video-path.mp4" type="video/mp4" />
+                  <source src="https://gghpnxauu0tgy0i9.public.blob.vercel-storage.com/WhatsApp%20Video%202026-01-07%20at%2011.19.41%20AM.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 
@@ -100,8 +100,14 @@ export default function Hero() {
               {/* Floating UI Elements (Matching your screenshot) */}
               <div className="absolute -left-10 top-1/4 p-4 bg-white/90 backdrop-blur-md rounded-2xl shadow-xl animate-bounce-slow hidden sm:block">
                 <div className="flex items-center gap-2 mb-2">
-                   <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center">🌴</div>
-                   <span className="text-sm font-bold text-slate-800">Thailand Trip</span>
+                <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center overflow-hidden">
+  <img 
+    src="/pos-terminal_10918932.png" 
+    alt="icon" 
+    className="w-full h-full object-cover" 
+  />
+</div>
+                   <span className="text-sm font-bold text-slate-800">A one-stop HUB</span>
                 </div>
                 <div className="w-32 h-12 bg-primary/20 rounded-md overflow-hidden">
                    <div className="w-2/3 h-full bg-primary" />
@@ -109,7 +115,7 @@ export default function Hero() {
               </div>
 
               <div className="absolute -right-6 bottom-1/3 p-4 bg-indigo-600 rounded-2xl shadow-xl animate-float hidden sm:block" style={{ animationDelay: '1.5s' }}>
-                <span className="text-xs text-white/80">My stock</span>
+                <span className="text-xs text-white/80">End-to-End</span>
                 <div className="w-24 h-12 mt-2 border-b-2 border-l-2 border-white/30 relative">
                    {/* Simplified SVG Path for the graph look */}
                    <svg viewBox="0 0 100 50" className="absolute inset-0 w-full h-full stroke-white fill-none">
