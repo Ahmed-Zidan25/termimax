@@ -1,6 +1,6 @@
 "use client"
 
-import { Wifi, Package, Wrench, Lock, Truck, TrendingUp } from "lucide-react"
+import { Wifi, Package, Wrench, Lock, Truck, TrendingUp, wifiSync} from "lucide-react"
 import { ScrollFadeIn } from "./scroll-animation"
 
 const services = [
@@ -52,13 +52,15 @@ const services = [
     image: "/upgrade-program-technology-refresh.jpg",
   },
   {
-    icon: TrendingUp,
+    icon: wifiSync,
     title: "AirLink",
-    description: "AirLink is a paid service and is independent of MAXSTORE Core",
+    description: "Zero-touch remote provisioning, Global multi-operator, auto-switching, One-click remote config, Real-time usage monitoring, smart alerts",
     features: ["Solve Poor Coverage", "Speed First", "Touchless eSIM activation"],
-    /* image: "/upgrade-program-technology-refresh.jpg", */
     video: "https://gghpnxauu0tgy0i9.public.blob.vercel-storage.com/air_link3-3.mp4",
-  },
+  
+ },
+
+
   {
     icon: Wifi,
     title: "AirLoad",
