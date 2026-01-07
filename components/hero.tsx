@@ -56,7 +56,7 @@ export default function Hero() {
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </button>
                 <button className="px-8 py-4 border border-primary/50 text-primary rounded-lg font-bold text-lg hover:bg-primary/10 transition-all duration-300 ease-out hover:border-accent">
-                  Learn More
+                <Link href="/contact">Learn More</Link>
                 </button>
               </div>
 

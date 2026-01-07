@@ -95,6 +95,8 @@ export default function QuotePage() {
 
   const services = [
     "Installation & Setup",
+    "IoT Connectivity for POS",
+    "Field Service Management",
     "Training",
     "Maintenance Contract",
     "Extended Warranty",
@@ -188,7 +190,7 @@ export default function QuotePage() {
                               name="companyName"
                               value={formData.companyName}
                               onChange={handleChange}
-                              placeholder="Your Company Ltd."
+                              placeholder="Your Company"
                               required
                             />
                           </div>
@@ -201,7 +203,7 @@ export default function QuotePage() {
                                 name="contactName"
                                 value={formData.contactName}
                                 onChange={handleChange}
-                                placeholder="John Doe"
+                                placeholder="Customer Name"
                                 required
                               />
                             </div>
@@ -235,7 +237,7 @@ export default function QuotePage() {
                                 type="email"
                                 value={formData.email}
                                 onChange={handleChange}
-                                placeholder="usen@company.com"
+                                placeholder="user@company.com"
                                 required
                               />
                             </div>
@@ -247,7 +249,7 @@ export default function QuotePage() {
                                 type="tel"
                                 value={formData.phone}
                                 onChange={handleChange}
-                                placeholder="+971 (555) 123-4567"
+                                placeholder="+971 000-123-4567"
                                 required
                               />
                             </div>
