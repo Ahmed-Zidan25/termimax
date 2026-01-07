@@ -24,10 +24,10 @@ export default function CTA() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button className="group px-10 py-5 bg-primary text-primary-foreground rounded-lg font-bold text-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:shadow-2xl hover:shadow-primary/50 hover:scale-105 transform">
-            Request a Quote
+          <Link href="/quote">Request a Quote</Link>
           </button>
           <button className="px-10 py-5 border-2 border-primary text-primary rounded-lg font-bold text-lg hover:bg-primary/10 transition-all duration-300">
-            Contact Sales
+          <Link href="/contact">Contact Sales</Link>
           </button>
         </div>
 

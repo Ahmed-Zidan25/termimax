@@ -18,7 +18,7 @@ export default function Features() {
                 monitoring ensures nationwide coverage with high-availability design.
               </p>
               <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-all duration-300 ease-out hover:shadow-lg hover:shadow-accent/50 hover:-translate-y-1 animate-fade-in-up delay-300">
-                Learn More
+              <Link href="/contact">Learn More</Link>
               </button>
             </div>
 
@@ -62,7 +62,7 @@ export default function Features() {
                 POS devices using only genuine spare parts and certified processes.
               </p>
               <button className="px-6 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300 ease-out hover:shadow-lg hover:shadow-accent/50 hover:-translate-y-1 animate-fade-in-up delay-300">
-                Request Service
+              <Link href="/contact">Request Service</Link> 
               </button>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Features() {
                 onboarding, and technical support with SLA-driven accountability.
               </p>
               <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-all duration-300 ease-out hover:shadow-lg hover:shadow-accent/50 hover:-translate-y-1 animate-fade-in-up delay-300">
-                Request a Quote
+              <Link href="/quote">Request a Quote</Link>
               </button>
             </div>
 

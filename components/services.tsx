@@ -136,7 +136,7 @@ export default function Services() {
         {/* CTA */}
         <div className="text-center mt-12 animate-fade-in-up delay-500">
           <button className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-bold text-lg hover:bg-accent hover:text-accent-foreground hover:shadow-2xl hover:shadow-accent/50 transition-all duration-300 ease-out hover:-translate-y-1">
-            Request a Quote
+          <Link href="/quote">Request a Quote</Link>
           </button>
         </div>
       </div>

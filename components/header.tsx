@@ -68,7 +68,7 @@ export default function Header() {
               Clients
             </a>
             <button className="w-full px-6 py-2 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-accent transition-all">
-              Request a Quote
+            <Link href="/quote">Request a Quote</Link>
             </button>
           </nav>
         )}

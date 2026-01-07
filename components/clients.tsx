@@ -69,7 +69,7 @@ export default function Clients() {
             operations.
           </p>
           <button className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-bold text-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:shadow-lg hover:shadow-primary/50">
-            Request a Quote
+          <Link href="/quote">Request a Quote</Link>
           </button>
         </div>
       </div>

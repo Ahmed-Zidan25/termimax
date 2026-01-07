@@ -51,7 +51,7 @@ export default function Hero() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-up delay-300">
                 <button className="group px-8 py-4 bg-primary text-primary-foreground rounded-lg font-bold text-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300 ease-out hover:shadow-2xl hover:shadow-primary/50 hover:-translate-y-1 flex items-center gap-2">
-                  Request a Quote
+                <Link href="/quote">Request a Quote</Link>
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </button>
                 <button className="px-8 py-4 border border-primary/50 text-primary rounded-lg font-bold text-lg hover:bg-primary/10 transition-all duration-300 ease-out hover:border-accent">
