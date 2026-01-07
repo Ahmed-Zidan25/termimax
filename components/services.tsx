@@ -53,17 +53,17 @@ const services = [
   },
   {
     icon: Wifi,
-    title: "AirLink",
+    title: "AirLink (No SIM, All Signal)",
     description: "Zero-touch remote provisioning, Global multi-operator, auto-switching, One-click remote config, Real-time usage monitoring, smart alerts",
     features: ["Solve Poor Coverage", "Speed First", "Touchless eSIM activation"],
-    video: "https://gghpnxauu0tgy0i9.public.blob.vercel-storage.com/air_link3-3.mp4",
+    image: "AirLink.PNG",
   
  },
 
 
   {
     icon: Wifi,
-    title: "AirLoad",
+    title: "AirLoad Solution",
     description: "One-click to provision remotely, Universal process supports multiple operators, One platform to monitor cards and terminals.",
     features: ["Efficient Centralized Management", "One-to-One Correspondence from eSIM to Terminal", "Remote Deployment"],
     image: "/air_load5-2.png",

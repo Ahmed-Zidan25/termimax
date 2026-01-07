@@ -1,30 +1,29 @@
 "use client"
 
-import { Wifi, Package, WifiSiren } from "lucide-react" // Added WifiSiren as a placeholder for wifiSync
+import { radioTower, tablet, handMetal } from "lucide-react" // Added WifiSiren as a placeholder for wifiSync
 import { ScrollFadeIn } from "./scroll-animation"
 
 const productsData = [
   {
-    icon: Wifi,
-    title: "AirLink",
-    description: "Zero-touch remote provisioning, Global multi-operator, auto-switching, One-click remote config, Real-time usage monitoring, smart alerts",
-    features: ["Solve Poor Coverage", "Speed First", "Touchless eSIM activation"],
-    // Use the video URL here
-    video: "https://gghpnxauu0tgy0i9.public.blob.vercel-storage.com/air_link3-3.mp4",
+    icon: tablet,
+    title: "Station",
+    description: "Thinner than your imagination | Break connections’ boundaries. High Configurations for Superior Performance",
+    features: ["Safe Design", "Station and Tablet", "Station and Eye", "Station and Printer"],
+    image: "ElysStationPartImg_7.png",
   },
   {
-    icon: Wifi,
-    title: "IoT Connectivity for POS",
-    description: "Secure M2M/IoT connectivity designed for POS and ECR deployments with dedicated SIMs and private APN configurations.",
-    features: ["Dedicated IoT SIMs", "Private APN", "Nationwide Coverage"],
-    image: "/iot-connectivity-pos-devices-network.jpg",
+    icon: handMetal,
+    title: "Kitchen Display System",
+    description: "Protection against water and dust, Easy to wipe oil and insect. Expanding capabilities in your kitchen environment.",
+    features: ["Full metal construction", "IP54 Waterproof", "Vertical or Horizontal", "PoE"],
+    image: "/ElysDisplay1_1.png",
   },
   {
-    icon: Package,
-    title: "POS Hardware Sales & Distribution",
-    description: "Authorized PAX Technology reseller supplying certified payment hardware and consumables in accordance with regulations.",
-    features: ["POS Terminals", "Genuine Spare Parts", "ECR Devices"],
-    image: "/pos-payment-terminals-hardware-devices.jpg",
+    icon: radioTower,
+    title: "Tower, An Excellent All-in-one ECR",
+    description: "Tower comes in an aluminum alloy body with an ultra-thin design to stand out in high-end positioning.",
+    features: ["Sleek and Stylish Design", "Brilliant screen", "NFC Contactless", "Easy to Print"],
+    image: "/ElysTowerMobilePart_5_2.png",
   }
 ]
 
