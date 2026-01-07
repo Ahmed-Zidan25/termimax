@@ -235,7 +235,7 @@ export default function QuotePage() {
                                 type="email"
                                 value={formData.email}
                                 onChange={handleChange}
-                                placeholder="john@company.com"
+                                placeholder="usen@company.com"
                                 required
                               />
                             </div>
@@ -247,7 +247,7 @@ export default function QuotePage() {
                                 type="tel"
                                 value={formData.phone}
                                 onChange={handleChange}
-                                placeholder="+1 (555) 123-4567"
+                                placeholder="+971 (555) 123-4567"
                                 required
                               />
                             </div>
@@ -273,8 +273,11 @@ export default function QuotePage() {
                                 <SelectContent>
                                   <SelectItem value="pos">POS Devices</SelectItem>
                                   <SelectItem value="ecr">ECR Systems</SelectItem>
-                                  <SelectItem value="pos-parts">POS Spare Parts</SelectItem>
-                                  <SelectItem value="ecr-parts">ECR Spare Parts</SelectItem>
+                                  <SelectItem value="pos-parts">Maintenance & Repair Services</SelectItem>
+                                  <SelectItem value="ecr-parts">Station Devices</SelectItem>
+                                  <SelectItem value="ecr-parts">Kitchen Display System</SelectItem>
+                                  <SelectItem value="ecr-parts">Tower</SelectItem>
+                                  <SelectItem value="ecr-parts">IoT Connectivity</SelectItem>
                                   <SelectItem value="multiple">Multiple Categories</SelectItem>
                                 </SelectContent>
                               </Select>
