@@ -1,25 +1,25 @@
 "use client"
 
-import { radioTower, tablet, handMetal } from "lucide-react" // Added WifiSiren as a placeholder for wifiSync
+import { RadioTower, Tablet, HandMetal } from "lucide-react" // Added WifiSiren as a placeholder for wifiSync
 import { ScrollFadeIn } from "./scroll-animation"
 
 const productsData = [
   {
-    icon: tablet,
+    icon: Tablet,
     title: "Station",
     description: "Thinner than your imagination | Break connections’ boundaries. High Configurations for Superior Performance",
     features: ["Safe Design", "Station and Tablet", "Station and Eye", "Station and Printer"],
     image: "ElysStationPartImg_7.png",
   },
   {
-    icon: handMetal,
+    icon: HandMetal,
     title: "Kitchen Display System",
     description: "Protection against water and dust, Easy to wipe oil and insect. Expanding capabilities in your kitchen environment.",
     features: ["Full metal construction", "IP54 Waterproof", "Vertical or Horizontal", "PoE"],
     image: "/ElysDisplay1_1.png",
   },
   {
-    icon: radioTower,
+    icon: RadioTower,
     title: "Tower, An Excellent All-in-one ECR",
     description: "Tower comes in an aluminum alloy body with an ultra-thin design to stand out in high-end positioning.",
     features: ["Sleek and Stylish Design", "Brilliant screen", "NFC Contactless", "Easy to Print"],
