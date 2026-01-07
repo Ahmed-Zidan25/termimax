@@ -46,13 +46,13 @@ export default function Footer() {
             <h4 className="font-semibold mb-4 text-foreground">Company</h4>
             <ul className="space-y-2 text-sm text-foreground/60">
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  About Us
+                <a href="/products" className="hover:text-primary transition-colors">
+                  Products
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Contact
+                <a href="/contact" className="hover:text-primary transition-colors">
+                  Contact Us
                 </a>
               </li>
               <li>
@@ -60,11 +60,7 @@ export default function Footer() {
                   Partnerships
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Careers
-                </a>
-              </li>
+            
             </ul>
           </div>
 
@@ -99,7 +95,7 @@ export default function Footer() {
           <div className="text-sm text-foreground/60">© {new Date().getFullYear()} Termimax. All rights reserved.</div>
 
           {/* Social Links */}
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <a
               href="#"
               className="p-2 bg-card border border-border rounded-lg hover:border-primary hover:text-primary transition-all duration-300"
@@ -124,7 +120,7 @@ export default function Footer() {
             >
               <Instagram size={18} />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

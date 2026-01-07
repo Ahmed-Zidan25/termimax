@@ -13,7 +13,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent hover:scale-105 transition-transform">
-              termimax
+              TermiMax
             </h1>
           </div>
 
@@ -30,6 +30,12 @@ export default function Header() {
             </a>
             <a href="#clients" className="text-foreground/70 hover:text-primary transition-colors text-sm font-medium">
               Clients
+            </a>
+            <a href="/products" className="text-foreground/70 hover:text-primary transition-colors text-sm font-medium">
+              Products
+            </a>
+            <a href="/contact" className="text-foreground/70 hover:text-primary transition-colors text-sm font-medium">
+              Contact Us
             </a>
           </nav>
 
