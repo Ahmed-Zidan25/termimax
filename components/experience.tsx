@@ -53,15 +53,18 @@ export default function Experience() {
               </li>
             </ul>
           </div>
-          <div className="p-8 bg-gradient-to-br from-primary/20 to-accent/20 border border-primary/30 rounded-lg">
-            <div className="space-y-4">
-              <div className="h-2 bg-primary/30 rounded-full w-full" />
-              <div className="h-2 bg-primary/30 rounded-full w-5/6" />
-              <div className="h-2 bg-primary/30 rounded-full w-4/5" />
-              <div className="h-2 bg-primary/30 rounded-full w-3/4" />
+          <div className="card-futuristic p-6 rounded-xl">
+              <div className="card-image mb-4">
+                <img src="/global_network_10.jpg" alt="Field Service" />
+                <div className="card-image-overlay" />
+              </div>
+              <div className="text-center">
+               
+                <div className="text-foreground/60">UAE Based</div>
+              </div>
             </div>
           </div>
-        </div>
+        </ScrollFadeIn>
       </div>
     </section>
   )
