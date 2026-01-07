@@ -1,6 +1,6 @@
 "use client"
 
-import { Wifi, Package, Wrench, Lock, Truck, TrendingUp, laptopMinimalCheck} from "lucide-react"
+import { Wifi, Package, Wrench, Lock, Truck, TrendingUp } from "lucide-react"
 import { ScrollFadeIn } from "./scroll-animation"
 
 const services = [
@@ -60,7 +60,7 @@ const services = [
     video: "https://gghpnxauu0tgy0i9.public.blob.vercel-storage.com/air_link3-3.mp4",
   },
   {
-    icon: laptopMinimalCheck,
+    icon: Wifi,
     title: "AirLoad",
     description: "One-click to provision remotely, Universal process supports multiple operators, One platform to monitor cards and terminals.",
     features: ["Efficient Centralized Management", "One-to-One Correspondence from eSIM to Terminal", "Remote Deployment"],
