@@ -26,7 +26,7 @@ export default function Features() {
 
             <div className="card-futuristic p-6 rounded-xl">
               <div className="card-image mb-4">
-                <img src="/download.jpg" alt="IoT Connectivity" />
+                <img src="/A920MAX-Side-Angle-with-Screen.webp" alt="IoT Connectivity" />
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
