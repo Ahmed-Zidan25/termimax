@@ -31,9 +31,9 @@ export default function Features() {
               </div>
               <div className="text-center">
                 <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
-                24/7 reliability
+                24/7
                 </div>
-               
+                <div className="text-foreground/60">Intelligent Network Connectivity</div>
               </div>
             </div>
           </div>
@@ -87,10 +87,8 @@ export default function Features() {
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
-                <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
-                  800K+
-                </div>
-                <div className="text-foreground/60">*****</div>
+                
+                <div className="text-foreground/60">Device Insights</div>
               </div>
             </div>
           </div>

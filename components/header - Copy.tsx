@@ -1,45 +1,16 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import Link from "next/link";
 
+
+
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [isVisible, setIsVisible] = useState(true)
-  const [lastScrollY, setLastScrollY] = useState(0)
-
-  useEffect(() => {
-    const controlNavbar = () => {
-      // Current scroll position
-      const currentScrollY = window.scrollY
-
-      // If scrolling down and past the header height (100px), hide it
-      if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        setIsVisible(false)
-      } else {
-        // If scrolling up, show it
-        setIsVisible(true)
-      }
-
-      // Update last scroll position
-      setLastScrollY(currentScrollY)
-    }
-
-    window.addEventListener('scroll', controlNavbar)
-
-    // Cleanup listener on unmount
-    return () => {
-      window.removeEventListener('scroll', controlNavbar)
-    }
-  }, [lastScrollY])
 
   return (
-    <header 
-      className={`fixed w-full top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border transition-transform duration-300 ${
-        isVisible ? 'translate-y-0' : '-translate-y-full'
-      }`}
-    >
+    <header className="fixed w-full top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
