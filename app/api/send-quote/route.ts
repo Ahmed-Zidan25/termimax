@@ -51,7 +51,7 @@ export async function POST(request: NextRequest) {
       },
       body: JSON.stringify({
         from: "onboarding@resend.dev",
-        to: "sales@mk360.co",
+        to: "sales.support@termimax.net",
         replyTo: formData.email,
         subject: `New Quote Request from ${formData.companyName}`,
         html: emailContent,

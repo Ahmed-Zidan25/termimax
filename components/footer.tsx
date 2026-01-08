@@ -91,8 +91,7 @@ export default function Footer() {
         <div className="border-t border-border py-8 mb-4" />
 
         {/* Bottom Footer */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-          <div className="text-sm text-foreground/60">© {new Date().getFullYear()} Termimax. All rights reserved.</div>
+        <div className="text-sm text-foreground/60">© {new Date().getFullYear()} Termimax. All rights reserved.</div>
 
           {/* Social Links */}
           {/* <div className="flex gap-4">
@@ -122,7 +121,7 @@ export default function Footer() {
             </a>
           </div> */}
         </div>
-      </div>
+     
     </footer>
   )
 }

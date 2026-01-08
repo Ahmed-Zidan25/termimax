@@ -157,8 +157,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="mb-1 font-semibold text-foreground">Email</h3>
-                        <p className="text-sm text-muted-foreground">info@termimax.net</p>
-                        <p className="text-sm text-muted-foreground">support@termimax.net</p>
+                        <p className="text-sm text-muted-foreground">sales.support@termimax.net</p>
                       </div>
                     </div>
 
