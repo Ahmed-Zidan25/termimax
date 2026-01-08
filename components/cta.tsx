@@ -36,7 +36,7 @@ export default function CTA() {
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row justify-center items-center gap-8">
           <div>
             <div className="text-foreground/60 text-sm mb-1">Email</div>
-            <div className="font-semibold text-primary">info@termimax.net</div>
+            <div className="font-semibold text-primary">sales.support@termimax.net</div>
           </div>
           <div className="w-px h-8 bg-border hidden sm:block" />
           <div>
@@ -46,7 +46,7 @@ export default function CTA() {
           <div className="w-px h-8 bg-border hidden sm:block" />
           <div>
             <div className="text-foreground/60 text-sm mb-1">Location</div>
-            <div className="font-semibold text-primary">Office at Iris Bay - 901, Office No. 901-34, Business Bay, Dubai, United Arab Emirates.</div>
+            <div className="font-semibold text-primary">Iris Bay - 901, Office No. 901-34, Business Bay, Dubai, United Arab Emirates.</div>
           </div>
         </div>
       </div>

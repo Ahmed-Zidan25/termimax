@@ -1,9 +1,8 @@
 "use client"
 
 import type React from "react"
+
 import { useState } from "react"
-// 1. Import the Server Action (adjust path as needed)
-import { sendContactEmail } from "@/app/actions/send-email" 
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -11,8 +10,9 @@ import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
-import { Mail, Phone, MapPin, Clock, Check, ChevronsUpDown, Loader2 } from "lucide-react"
+import { Mail, Phone, MapPin, Clock, Check, ChevronsUpDown } from "lucide-react"
 import { cn } from "@/lib/utils"
+
 
 const countryCodes = [
   { name: "Afghanistan", code: "+93" },
@@ -88,7 +88,6 @@ const countryCodes = [
 ]
 
 export default function ContactPage() {
-  const [isSubmitting, setIsSubmitting] = useState(false) // State for button loading
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -99,25 +98,11 @@ export default function ContactPage() {
   })
   const [open, setOpen] = useState(false)
 
-  // 2. Updated Handle Submit
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    setIsSubmitting(true)
-    
-    try {
-      const result = await sendContactEmail(formData)
-
-      if (result.success) {
-        alert("Thank you! Your message has been sent successfully.")
-        setFormData({ name: "", email: "", countryCode: "+971", phone: "", subject: "", message: "" })
-      } else {
-        alert("Oops! Failed to send the message. Please try again.")
-      }
-    } catch (error) {
-      alert("An unexpected error occurred.")
-    } finally {
-      setIsSubmitting(false)
-    }
+    console.log("Contact form submitted:", formData)
+    alert("Thank you for contacting us! We'll get back to you soon.")
+    setFormData({ name: "", email: "", countryCode: "+971", phone: "", subject: "", message: "" })
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -211,7 +196,12 @@ export default function ContactPage() {
                   </div>
                 </CardContent>
               </Card>
+             
+            
+           
             </div>
+              
+
 
             {/* Contact Form */}
             <div className="lg:col-span-2">
@@ -229,7 +219,6 @@ export default function ContactPage() {
                           onChange={handleChange}
                           placeholder="John Doe"
                           required
-                          disabled={isSubmitting}
                         />
                       </div>
                       <div className="space-y-2">
@@ -242,7 +231,6 @@ export default function ContactPage() {
                           onChange={handleChange}
                           placeholder="john@example.com"
                           required
-                          disabled={isSubmitting}
                         />
                       </div>
                     </div>
@@ -257,7 +245,6 @@ export default function ContactPage() {
                                 variant="outline"
                                 role="combobox"
                                 aria-expanded={open}
-                                disabled={isSubmitting}
                                 className="w-[180px] justify-between bg-transparent"
                               >
                                 {selectedCountry
@@ -303,7 +290,6 @@ export default function ContactPage() {
                             onChange={handleChange}
                             placeholder="123 456 7890"
                             className="flex-1"
-                            disabled={isSubmitting}
                           />
                         </div>
                       </div>
@@ -316,7 +302,6 @@ export default function ContactPage() {
                           onChange={handleChange}
                           placeholder="How can we help?"
                           required
-                          disabled={isSubmitting}
                         />
                       </div>
                     </div>
@@ -332,27 +317,20 @@ export default function ContactPage() {
                         rows={12}
                         required
                         className="resize-none"
-                        disabled={isSubmitting}
                       />
                     </div>
 
-                    {/* 3. Updated Button with Loading Indicator */}
-                    <Button type="submit" size="lg" className="w-full md:w-auto" disabled={isSubmitting}>
-                      {isSubmitting ? (
-                        <>
-                          <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                          Sending...
-                        </>
-                      ) : (
-                        "Send Message"
-                      )}
+                    <Button type="submit" size="lg" className="w-full md:w-auto">
+                      Send Message
                     </Button>
                   </form>
                 </CardContent>
               </Card>
-            </div>
+           
+           </div>
           </div>
         </div>
+        
       </section>
 
       {/* Map Section */}
@@ -370,7 +348,7 @@ export default function ContactPage() {
               <CardContent>
                 <div className="aspect-[21/9] rounded-xl overflow-hidden shadow-xl">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.17851002432!2d55.2633!3d25.1855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDExJzA3LjgiTiA1NcKwMTUnNDcuOSJF!5e0!3m2!1sen!2sae!4v1625648584732!5m2!1sen!2sae"
+                    src="https://maps.google.com/maps?q=Iris%20Bay%20-%20901%2C%20Office%20No.%20901-34%2C%20Business%20Bay%2C%20Dubai%2C%20United%20Arab%20Emirates&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
