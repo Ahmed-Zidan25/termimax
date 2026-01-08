@@ -88,9 +88,10 @@ export default function Footer() {
         </div>
 
                 {/* Bottom Footer */}
+                <div className="mt-8 border-t border-border pt-8">
                 <div className="text-sm text-foreground/60 text-center">
   © {new Date().getFullYear()} Termimax. All rights reserved.</div>
-
+  </div>
           {/* Social Links */}
           {/* <div className="flex gap-4">
             <a
