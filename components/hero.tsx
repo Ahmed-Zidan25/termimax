@@ -5,18 +5,21 @@ import { ScrollFadeIn } from "./scroll-animation"
 import Link from "next/link";
 import LogoSwiper from "@/components/LogoSwipper";
 
+const logos = [
+  { src: "/logos/pax.PNG", alt: "PAX Logo" },
+  { src: "/logos/ncr.svg", alt: "NCR Corporation Logo" },
+  { src: "/logos/ingenico.svg", alt: "Ingenico Logo" },
+  { src: "/logos/verifone.PNG", alt: "Verifone Logo", customSize: "h-15 w-42" },
+  { src: "/logos/sunmi.PNG", alt: "Sunmi" },
+  { src: "/logos/IMIN.svg", alt: "IMIN" },
+  { src: "/logos/Feitian.png", alt: "Feitian" },
+  { src: "/logos/NewPOS.png", alt: "NewPOS" },
+  { src: "/logos/NEXGO.svg", alt: "NEXGO" },
+]
+
+
 export default function Hero() {
-  const logos = [
-    { src: "/logos/pax.PNG", alt: "PAX Logo" },
-    { src: "/logos/ncr.svg", alt: "NCR Corporation Logo" },
-    { src: "/logos/ingenico.svg", alt: "Ingenico Logo" },
-    { src: "/logos/verifone.PNG", alt: "Verifone Logo", customSize: "h-15 w-42" },
-    { src: "/logos/sunmi.PNG", alt: "Sunmi" },
-    { src: "/logos/IMIN.svg", alt: "IMIN" },
-    { src: "/logos/Feitian.png", alt: "Feitian" },
-    { src: "/logos/NewPOS.png", alt: "NewPOS" },
-    { src: "/logos/NEXGO.svg", alt: "NEXGO" },
-  ];
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       {/* Animated Background */}
