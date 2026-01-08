@@ -5,6 +5,7 @@ import Services from "@/components/services"
 import Products from "@/components/products"
 import Experience from "@/components/experience"
 import Features from "@/components/features"
+import IOT from "@/components/iot"
 import Clients from "@/components/clients"
 import CTA from "@/components/cta"
 import Footer from "@/components/footer"
@@ -18,6 +19,7 @@ export default function Home() {
       <Products />
       <Experience />
       <Features />
+      <IOT />
       <Clients />
       <CTA />
       <Footer />
