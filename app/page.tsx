@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/header"
 import Hero from "@/components/hero"
+import Partners from "@/components/partners"
 import Services from "@/components/services"
 import Products from "@/components/products"
 import Experience from "@/components/experience"
@@ -15,6 +16,7 @@ export default function Home() {
     <main className="bg-background text-foreground">
       <Header />
       <Hero />
+      <Partners />
       <Services />
       <Products />
       <Experience />
