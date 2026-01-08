@@ -129,6 +129,20 @@ export default function Hero() {
 
         </div>
       </div>
+      <div className="mb-10 text-center">
+            <div className="inline-flex items-center gap-3 mb-3">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-primary"></div>
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground">Authorized Partner of Leading Brands</h2>
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-primary"></div>
+            </div>
+            <p className="text-sm text-muted-foreground">Trusted by the world's top POS manufacturers</p>
+          </div>
+          {/* تم استبدال النص بالشعارات */}
+          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+            <LogoSwiper logos={logos}/>
+            </div> 
+        
     </section>
+    
   )
 }
