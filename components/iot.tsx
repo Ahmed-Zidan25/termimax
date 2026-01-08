@@ -19,27 +19,21 @@ export default function Features() {
               Ensure seamless, uninterrupted payment transactions with our always-on connectivity solutions for POS terminals. Powered by secure IoT SIMs and a resilient global network, our platform delivers 24/7 reliability while reducing device-related operational costs and enhancing overall efficiency.
               </p>
               <p>With real-time network intelligence and centralized configuration tools, your teams gain full visibility and control over the entire POS fleet. Proactively minimize downtime, accelerate remote software updates, and ensure every terminal remains transaction-ready—whether deployed in high-volume urban retail environments or remote countryside locations.</p>
-             
-             
-             
-             
-             
-             
-              <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-all duration-300 ease-out hover:shadow-lg hover:shadow-accent/50 hover:-translate-y-1 animate-fade-in-up delay-300">
+             <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-all duration-300 ease-out hover:shadow-lg hover:shadow-accent/50 hover:-translate-y-1 animate-fade-in-up delay-300">
               <Link href="/quote">Request a Quote</Link>
               </button>
             </div>
 
             <div className="card-futuristic p-6 rounded-xl">
               <div className="card-image mb-4">
-                <img src="/iot-network-connectivity-dashboard-monitoring.jpg" alt="IoT Connectivity" />
+                <img src="/owner-getting-ready-reopening.jpg" alt="IoT Connectivity" />
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
                 <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
-                  500K+
+                24/7 reliability
                 </div>
-                <div className="text-foreground/60">Connected Devices</div>
+               
               </div>
             </div>
           </div>
@@ -50,14 +44,14 @@ export default function Features() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center animate-fade-in-up">
             <div className="card-futuristic p-6 rounded-xl order-2 lg:order-1">
               <div className="card-image mb-4">
-                <img src="/device-repair-maintenance-workshop-certification.jpg" alt="Repair Services" />
+                <img src="/large-buildings-with-dome-lights.jpg" alt="Repair Services" />
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
                 <div className="text-5xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent mb-2 animate-glow">
-                  150K+
+                180+
                 </div>
-                <div className="text-foreground/60">********</div>
+                <div className="text-foreground/60">Countries & 680 Networks</div>
               </div>
             </div>
 
@@ -89,7 +83,7 @@ export default function Features() {
 
             <div className="card-futuristic p-6 rounded-xl">
               <div className="card-image mb-4">
-                <img src="/field-service-technician-merchant-visit-deployment.jpg" alt="Field Service" />
+                <img src="/iot-connectivity-pos-devices-network.jpg" alt="Field Service" />
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
