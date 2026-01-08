@@ -26,7 +26,7 @@ export default function Features() {
 
             <div className="card-futuristic p-6 rounded-xl">
               <div className="card-image mb-4">
-                <img src="/owner-getting-ready-reopening.jpg" alt="IoT Connectivity" />
+                <img src="/download.jpg" alt="IoT Connectivity" />
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
