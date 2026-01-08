@@ -144,7 +144,15 @@ export default function Hero() {
 
         </div>
       </div>
-      <div className="mb-10 text-center">
+     
+        
+    </section>
+    
+  )
+}
+<section>
+
+<div className="mb-10 text-center">
             <div className="inline-flex items-center gap-3 mb-3">
               <div className="h-px w-12 bg-gradient-to-r from-transparent to-primary"></div>
               <h2 className="text-2xl md:text-3xl font-bold text-foreground">Authorized Partner of Leading Brands</h2>
@@ -156,8 +164,4 @@ export default function Hero() {
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
             <LogoSwiper logos={logos}/>
             </div> 
-        
-    </section>
-    
-  )
-}
+</section>
