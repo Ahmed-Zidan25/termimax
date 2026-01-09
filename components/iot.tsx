@@ -52,7 +52,7 @@ export default function Features() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center animate-fade-in-up">
             <div className="order-2 lg:order-1 card-futuristic relative overflow-hidden rounded-xl min-h-[450px] flex flex-col border border-primary/20">
               {/* Video Wrapper */}
-              <div className="absolute inset-0 w-full h-full pointer-events-none">
+             {/*  <div className="absolute inset-0 w-full h-full pointer-events-none">
                 <iframe
                   src="https://player.vimeo.com/video/1091588855?background=1&autoplay=1&muted=1&loop=1&autopause=0&portrait=0&byline=0&title=0"
                   className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.77777778vh] min-w-full min-h-full h-[56.25vw] object-cover"
@@ -60,8 +60,18 @@ export default function Features() {
                   allow="autoplay; fullscreen"
                   title="IoT Scale Video"
                 ></iframe>
-              </div>
-
+              </div> */}
+            <div className="absolute inset-0 w-full h-full pointer-events-none">
+  <video
+    src="/security.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.77777778vh] min-w-full min-h-full h-[56.25vw] object-cover"
+    title="IoT Scale Video"
+  />
+</div>
               <div className="relative mt-auto p-8 bg-gradient-to-t from-background via-background/60 to-transparent">
                 <div className="text-center">
                   <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
