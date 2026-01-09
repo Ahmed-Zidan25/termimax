@@ -24,7 +24,6 @@ export default function Features() {
               </button>
             </div>
 
-
             <div className="card-futuristic p-6 rounded-xl">
               <div className="card-image mb-4">
                 <img src="/pos-devices.png" alt="Field Service" />
@@ -37,56 +36,25 @@ export default function Features() {
                   <div className="text-foreground/90 font-medium">Connected Devices</div>
                 </div>
             </div>
-
-           
           </div>
         </ScrollFadeIn>
-
-
-
-
-
-
 
         {/* Feature 2 - Maintenance & Repair */}
         <ScrollFadeIn>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center animate-fade-in-up">
-           
-          <div className="card-futuristic p-6 rounded-xl">
+            <div className="card-futuristic p-6 rounded-xl">
               <div className="card-image mb-4">
                 <img src="/repair-maintenance-technical-workshop.jpg" alt="Field Service" />
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
+                <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
                   150K+
-                  </div>
-                  <div className="text-foreground/90 font-medium">Repair & Refurbishment</div>
                 </div>
-            </div>
-           
-           
-            {/* <div className="order-2 lg:order-1 card-futuristic relative overflow-hidden rounded-xl min-h-[450px] flex flex-col border border-primary/20">
-              <div className="absolute inset-0 w-full h-full">
-                <iframe
-                  src="https://player.vimeo.com/video/1129017842?background=1&autoplay=1&muted=1&loop=1&autopause=0"
-                  className="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full -translate-x-1/2 -translate-y-1/2 object-cover scale-[1.5]"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen"
-                  title="Repair Services Video"
-                ></iframe>
-                <div className="absolute inset-0 bg-black/30" />
+                <div className="text-foreground/90 font-medium">Repair & Refurbishment</div>
               </div>
-              <div className="relative mt-auto p-8 bg-gradient-to-t from-background via-background/60 to-transparent">
-                <div className="text-center">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent mb-2 animate-glow">
-                    150K+
-                  </div>
-                  <div className="text-foreground/90 font-medium">Repair & Refurbishment</div>
-                </div>
-              </div> */}
             </div>
-
+           
             <div className="order-1 lg:order-2">
               <h3 className="text-3xl sm:text-4xl font-bold mb-4 animate-slide-in-right delay-100 text-foreground">
                 Maintenance & <span className="text-accent">Repair Services</span>
