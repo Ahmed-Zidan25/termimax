@@ -93,9 +93,7 @@ export default function Hero() {
                   playsInline
                   className="w-full h-full object-cover scale-110"
                 >
-                  <source src="https://player.vimeo.com/video/1091588855?h=1b7bdd9475&autoplay=1&muted=1&loop=1&background=1"/>
-
-                  {/* <source src="https://gghpnxauu0tgy0i9.public.blob.vercel-storage.com/WhatsApp%20Video%202026-01-07%20at%2011.22.53%20AM.mp4" type="video/mp4" /> */}
+                  <source src="https://gghpnxauu0tgy0i9.public.blob.vercel-storage.com/WhatsApp%20Video%202026-01-07%20at%2011.22.53%20AM.mp4" type="video/mp4" /> 
                   Your browser does not support the video tag.
                 </video>
                 
