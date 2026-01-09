@@ -8,8 +8,9 @@ export default function Features() {
     <section className="py-20 sm:py-32 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-7xl mx-auto space-y-20">
         
+       
         {/* Feature 1 - IoT Connectivity at Scale */}
-        <ScrollFadeIn>
+       {/*  <ScrollFadeIn>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center animate-fade-in-up">
             <div>
               <h3 className="text-3xl sm:text-4xl font-bold mb-4 animate-slide-in-left delay-100 text-foreground">
@@ -37,8 +38,8 @@ export default function Features() {
                 </div>
             </div>
           </div>
-        </ScrollFadeIn>
-
+        </ScrollFadeIn>*/}
+ 
         {/* Feature 2 - Maintenance & Repair */}
         <ScrollFadeIn>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center animate-fade-in-up">
