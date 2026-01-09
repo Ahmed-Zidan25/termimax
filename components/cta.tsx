@@ -42,9 +42,9 @@ export default function CTA() {
           {/* <div>
             <div className="text-foreground/60 text-sm mb-1">Phone</div>
             <div className="font-semibold text-primary">+971 (0) XXXX XXXX</div>
-          </div> */}
+          </div>
           <div className="w-px h-8 bg-border hidden sm:block" />
-          <div>
+          <div>   */}
             <div className="text-foreground/60 text-sm mb-1">Location</div>
             <div className="font-semibold text-primary">Iris Bay - 901, Office No. 901-34, Business Bay, Dubai, United Arab Emirates.</div>
           </div>

@@ -25,26 +25,27 @@ export default function Features() {
             </div>
 
             <div className="card-futuristic relative overflow-hidden rounded-xl min-h-[450px] flex flex-col border border-primary/20">
-              <div className="absolute inset-0 w-full h-full">
-                <iframe
-                  src="https://player.vimeo.com/video/1091588855?background=1&autoplay=1&muted=1&loop=1&autopause=0"
-                  className="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full -translate-x-1/2 -translate-y-1/2 object-cover scale-[1.5]"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen"
-                  title="IoT Scale Video"
-                ></iframe>
-                <div className="absolute inset-0 bg-black/30" />
-              </div>
-              <div className="relative mt-auto p-8 bg-gradient-to-t from-background via-background/60 to-transparent">
-                <div className="text-center">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
-                    500K+
-                  </div>
-                  <div className="text-foreground/90 font-medium">Connected Devices</div>
-                </div>
-              </div>
-            </div>
-          </div>
+  {/* Image Container */}
+  <div className="absolute inset-0 w-full h-full">
+    <img
+      src="/connected-devices.png" // Replace with your actual image path
+      alt="IoT Connectivity at Scale"
+      className="w-full h-full object-cover"
+    />
+    {/* Dark overlay to ensure text readability */}
+    <div className="absolute inset-0 bg-black/40" />
+  </div>
+
+  {/* Content Overlay */}
+  <div className="relative mt-auto p-8 bg-gradient-to-t from-background via-background/60 to-transparent">
+    <div className="text-center">
+      <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
+        500K+
+      </div>
+      <div className="text-foreground/90 font-medium">Connected Devices</div>
+    </div>
+  </div>
+</div>
         </ScrollFadeIn>
 
         {/* Feature 2 - Maintenance & Repair */}
