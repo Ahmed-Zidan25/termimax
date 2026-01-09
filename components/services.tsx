@@ -53,14 +53,13 @@ const services = [
     image: "/upgrade-program-technology-refresh.jpg",
   },
   {
-    icon: Wifi,
-    title: "AirLink (No SIM, All Signal)",
-    description: "Zero-touch remote provisioning, Global multi-operator, auto-switching, One-click remote config, Real-time usage monitoring, smart alerts",
-    features: ["Solve Poor Coverage", "Speed First", "Touchless eSIM activation"],
-    image: "AirLink.PNG",
-  
- },
-
+      icon: Wifi,
+      title: "AirLink (No SIM, All Signal)",
+      description: "Zero-touch remote provisioning, Global multi-operator, auto-switching, One-click remote config, Real-time usage monitoring, smart alerts",
+      features: ["Solve Poor Coverage", "Speed First", "Touchless eSIM activation"],
+      video: "/dot_connection_02.mp4", // Path to your file in the public folder
+    },  
+ 
 
   {
     icon: Wifi,
