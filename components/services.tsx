@@ -53,14 +53,12 @@ const services = [
     image: "/upgrade-program-technology-refresh.jpg",
   },
   {
-      icon: Wifi,
-      title: "AirLink (No SIM, All Signal)",
-      description: "Zero-touch remote provisioning, Global multi-operator, auto-switching, One-click remote config, Real-time usage monitoring, smart alerts",
-      features: ["Solve Poor Coverage", "Speed First", "Touchless eSIM activation"],
-      video: "/dot_connection_02.mp4", // Path to your file in the public folder
-    },  
- 
-
+    icon: Wifi,
+    title: "AirLink (No SIM, All Signal)",
+    description: "Zero-touch remote provisioning, Global multi-operator, auto-switching, One-click remote config, Real-time usage monitoring, smart alerts",
+    features: ["Solve Poor Coverage", "Speed First", "Touchless eSIM activation"],
+    video: "/dot_connection_02.mp4", // Path to your file in the public folder
+  },
   {
     icon: Wifi,
     title: "AirLoad Solution",
@@ -79,67 +77,4 @@ export default function Services() {
           <h2 className="text-3xl sm:text-5xl font-bold mb-4 animate-fade-in-up text-foreground">
             Our Core <span className="text-primary">Services</span>
           </h2>
-          <p className="text-foreground/60 text-lg max-w-2xl mx-auto animate-fade-in-up delay-100">
-            Comprehensive POS ecosystem solutions designed for scale, security, and reliability
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service, index) => {
-            const Icon = service.icon
-            return (
-              <ScrollFadeIn key={index} delay={index * 100}>
-                <div
-                  className="group h-full card-futuristic p-6 rounded-xl flex flex-col"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  {/* Image with hover expansion effect */}
-                  <div className="card-image mb-6 -mx-6 -mt-6 rounded-t-xl overflow-hidden">
-                    <img
-                      src={service.image || "/placeholder.svg"}
-                      alt={service.title}
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="card-image-overlay" />
-                  </div>
-
-                  {/* Icon with purple glow effect on hover */}
-                  <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-accent/20 transition-all duration-300">
-                    <Icon
-                      size={24}
-                      className="text-primary group-hover:text-accent group-hover:scale-110 transition-all duration-300"
-                    />
-                  </div>
-
-                  <h3 className="text-xl font-bold mb-2 group-hover:text-accent transition-colors duration-300 text-foreground">
-                    {service.title}
-                  </h3>
-
-                  <p className="text-foreground/60 text-sm mb-4 flex-grow">{service.description}</p>
-
-                  <div className="flex flex-wrap gap-2 mt-auto">
-                    {service.features.map((feature, i) => (
-                      <span
-                        key={i}
-                        className="text-xs px-2 py-1 bg-primary/10 text-primary rounded-full group-hover:bg-accent/20 group-hover:text-accent transition-all duration-300"
-                      >
-                        {feature}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </ScrollFadeIn>
-            )
-          })}
-        </div>
-
-        {/* CTA */}
-        <div className="text-center mt-12 animate-fade-in-up delay-500">
-          <button className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-bold text-lg hover:bg-accent hover:text-accent-foreground hover:shadow-2xl hover:shadow-accent/50 transition-all duration-300 ease-out hover:-translate-y-1">
-          <Link href="/quote">Request a Quote</Link>
-          </button>
-        </div>
-      </div>
-    </section>
-  )
-}
+          <p className
