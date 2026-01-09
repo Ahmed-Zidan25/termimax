@@ -27,7 +27,7 @@ export default function Features() {
 
             <div className="card-futuristic p-6 rounded-xl">
               <div className="card-image mb-4">
-                <img src="/pax-pos.jpg" alt="Field Service" />
+                <img src="/pos-devices.png" alt="Field Service" />
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
@@ -51,7 +51,22 @@ export default function Features() {
         {/* Feature 2 - Maintenance & Repair */}
         <ScrollFadeIn>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center animate-fade-in-up">
-            <div className="order-2 lg:order-1 card-futuristic relative overflow-hidden rounded-xl min-h-[450px] flex flex-col border border-primary/20">
+           
+          <div className="card-futuristic p-6 rounded-xl">
+              <div className="card-image mb-4">
+                <img src="/repair-maintenance-technical-workshop.jpg" alt="Field Service" />
+                <div className="card-image-overlay" />
+              </div>
+              <div className="text-center">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
+                  150K+
+                  </div>
+                  <div className="text-foreground/90 font-medium">Repair & Refurbishment</div>
+                </div>
+            </div>
+           
+           
+            {/* <div className="order-2 lg:order-1 card-futuristic relative overflow-hidden rounded-xl min-h-[450px] flex flex-col border border-primary/20">
               <div className="absolute inset-0 w-full h-full">
                 <iframe
                   src="https://player.vimeo.com/video/1129017842?background=1&autoplay=1&muted=1&loop=1&autopause=0"
@@ -69,7 +84,7 @@ export default function Features() {
                   </div>
                   <div className="text-foreground/90 font-medium">Repair & Refurbishment</div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="order-1 lg:order-2">
