@@ -57,7 +57,30 @@ export default function Experience() {
                 </li>
               </ul>
             </div>
-            <div className="card-futuristic p-6 rounded-xl">
+            
+             {/* Video Container */}
+             <div className="card-futuristic relative overflow-hidden rounded-xl min-h-[450px] flex flex-col border border-primary/20">
+            <div className="absolute inset-0 w-full h-full pointer-events-none">
+  <video
+    src="/global-network.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.77777778vh] min-w-full min-h-full h-[56.25vw] object-cover"
+    title="IoT Scale Video"
+  />
+</div>
+
+              <div className="relative mt-auto p-8 bg-gradient-to-t from-background via-background/60 to-transparent">
+                <div className="text-center">
+                  
+                  <div className="text-foreground/90 font-medium">UAE Based</div>
+                </div>
+              </div>
+            </div>
+          </div>
+            {/* <div className="card-futuristic p-6 rounded-xl">
               <div className="card-image mb-4">
                 <img src="/global_network_10.jpg" alt="Field Service" />
                 <div className="card-image-overlay" />
@@ -65,7 +88,7 @@ export default function Experience() {
               <div className="text-center">
                 <div className="text-foreground/60">UAE Based</div>
               </div>
-            </div>
+            </div> */}
           </div>
         </ScrollFadeIn>
       </div>

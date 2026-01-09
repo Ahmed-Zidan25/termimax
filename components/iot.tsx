@@ -25,15 +25,17 @@ export default function Features() {
 
             {/* Video Container */}
             <div className="card-futuristic relative overflow-hidden rounded-xl min-h-[450px] flex flex-col border border-primary/20">
-              <div className="absolute inset-0 w-full h-full pointer-events-none">
-                <iframe
-                  src="https://player.vimeo.com/video/1129017842?background=1&autoplay=1&muted=1&loop=1&autopause=0&portrait=0&byline=0&title=0"
-                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.77777778vh] min-w-full min-h-full h-[56.25vw] object-cover"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen"
-                  title="IoT Connectivity Video"
-                ></iframe>
-              </div>
+            <div className="absolute inset-0 w-full h-full pointer-events-none">
+  <video
+    src="/POS-operations.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.77777778vh] min-w-full min-h-full h-[56.25vw] object-cover"
+    title="IoT Scale Video"
+  />
+</div>
 
               <div className="relative mt-auto p-8 bg-gradient-to-t from-background via-background/60 to-transparent">
                 <div className="text-center">
