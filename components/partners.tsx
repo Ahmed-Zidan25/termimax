@@ -8,6 +8,7 @@ export default function HomePage() {
     { src: "/logos/PAX_Technology_Inc_logo.png", alt: "PAX Logo" },
     { src: "/logos/logo_active.c5420012.svg", alt: "TOPWISE" },
     { src: "/logos/Copilot_20260108_210913-modified.png", alt: "PediaPay" },
+    { src: "/logos/download-Photoroom.png", alt: "NewLand" },
     { src: "/logos/zolon.png", alt: "ZOLON" },
     { src: "/logos/Onomondo.png", alt: "Onomondo" },
   ];

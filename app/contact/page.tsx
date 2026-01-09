@@ -178,7 +178,7 @@ export default function ContactPage() {
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-3">
+                   {/*  <div className="flex items-start gap-3">
                       <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-secondary/10">
                         <Phone className="h-5 w-5 text-secondary" />
                       </div>
@@ -186,7 +186,7 @@ export default function ContactPage() {
                         <h3 className="mb-1 font-semibold text-foreground">Phone</h3>
                         <p className="text-sm text-muted-foreground">+971 ******</p>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="flex items-start gap-3">
                       <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-accent/10">

@@ -39,10 +39,10 @@ export default function CTA() {
             <div className="font-semibold text-primary">sales.support@termimax.net</div>
           </div>
           <div className="w-px h-8 bg-border hidden sm:block" />
-          <div>
+          {/* <div>
             <div className="text-foreground/60 text-sm mb-1">Phone</div>
             <div className="font-semibold text-primary">+971 (0) XXXX XXXX</div>
-          </div>
+          </div> */}
           <div className="w-px h-8 bg-border hidden sm:block" />
           <div>
             <div className="text-foreground/60 text-sm mb-1">Location</div>

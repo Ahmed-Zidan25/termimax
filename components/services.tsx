@@ -19,7 +19,7 @@ const services = [
     description:
       "Authorized PAX Technology reseller supplying certified payment hardware and consumables in accordance with regulations.",
     features: ["POS Terminals", "Genuine Spare Parts", "ECR Devices"],
-    image: "/pax-pos.jpg",
+    image: "/pos-devices.png",
   },
   {
     icon: Wrench,
