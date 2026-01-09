@@ -31,10 +31,14 @@ export default function Features() {
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
-                <div className="text-foreground/60">UAE Based</div>
-              </div>
+                  <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2 animate-glow">
+                    500K+
+                  </div>
+                  <div className="text-foreground/90 font-medium">Connected Devices</div>
+                </div>
             </div>
 
+           
           </div>
         </ScrollFadeIn>
 
