@@ -3,6 +3,7 @@
 import { ScrollFadeIn } from "./scroll-animation"
 import Link from "next/link";
 
+
 export default function Features() {
   return (
     <section className="py-20 sm:py-32 px-4 sm:px-6 lg:px-8 bg-background">
@@ -24,14 +25,8 @@ export default function Features() {
             </div>
 
             <div className="card-futuristic p-6 rounded-xl">
-              <div className="card-image mb-4 relative aspect-video overflow-hidden rounded-lg">
-                <iframe
-                  src="https://player.vimeo.com/video/1129017842?background=1&autoplay=1&muted=1&loop=1&autopause=0"
-                  className="absolute top-0 left-0 w-full h-full object-cover scale-110"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen"
-                  title="IoT Connectivity Video"
-                ></iframe>
+              <div className="card-image mb-4">
+                <img src="/A920MAX-Side-Angle-with-Screen.webp" alt="IoT Connectivity" />
                 <div className="card-image-overlay" />
               </div>
               <div className="text-center">
