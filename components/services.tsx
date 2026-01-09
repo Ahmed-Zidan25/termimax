@@ -19,7 +19,7 @@ const services = [
     description:
       "Authorized PAX Technology reseller supplying certified payment hardware and consumables in accordance with regulations.",
     features: ["POS Terminals", "Genuine Spare Parts", "ECR Devices"],
-    image: "/pos-payment-terminals-hardware-devices.jpg",
+    image: "/pax-pos.jpg",
   },
   {
     icon: Wrench,
@@ -43,7 +43,7 @@ const services = [
     description:
       "Secure warehousing and logistics supporting high-volume POS operations with efficient nationwide rollouts.",
     features: ["POS Warehousing", "Deployment Staging", "Reverse Logistics"],
-    image: "/logistics-warehouse-storage-facility.jpg",
+    image: "/logistics-warehouse-storage-facility.jpeg",
   },
   {
     icon: TrendingUp,
